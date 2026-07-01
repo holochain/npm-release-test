@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## \[[0.0.4](https://github.com/holochain/npm-release-test/compare/v0.0.3...v0.0.4)\] - 2026-07-01
+
+### Features
+
+- Add publishable module with version and greet by @veeso
+  - Ships src/ in the npm tarball so each release carries a real code diff.
+
+### Documentation
+
+- Add design spec for publishable js module by @veeso
+
 ## \[[0.0.3](https://github.com/holochain/npm-release-test/compare/v0.0.2...v0.0.3)\] - 2026-07-01
 
 ## \[[0.0.2](https://github.com/holochain/npm-release-test/commits/v0.0.2)\] - 2026-07-01
