@@ -3,12 +3,14 @@
   "version": "0.0.3",
   "description": "Dummy package used to test the holochain/actions Node.js release workflows",
   "license": "Unlicense",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/holochain/npm-release-test.git"
   },
   "files": [
-    "README.md"
+    "README.md",
+    "src"
   ],
   "scripts": {
     "build": "echo \"nothing to build\"",
