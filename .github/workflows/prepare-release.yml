@@ -1,0 +1,24 @@
+name: Prepare Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_version:
+        type: string
+        description: "Exact semver version for the next release (leave blank to auto-detect from commits)"
+        default: ""
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    # Points at the fix branch so the harness can validate it before release.
+    # After the fix ships, switch this ref to @stable.
+    uses: holochain/actions/.github/workflows/nodejs-prepare-release.yml@ci/19-npm-publish-randomly-ignores-the-release-label # zizmor: ignore[unpinned-uses]
+    with:
+      cliff_config_url: https://raw.githubusercontent.com/holochain/release-integration/refs/heads/main/pre-1.0-cliff.toml
+      force_version: ${{ inputs.force_version }}
+    secrets:
+      GH_TOKEN: ${{ secrets.HRA_GH_TOKEN }}

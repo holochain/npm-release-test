@@ -1,0 +1,19 @@
+name: Publish Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    permissions:
+      contents: write # create the git tag and GitHub release
+      id-token: write # OIDC for npm provenance
+    # Points at the fix branch so the harness can validate it before release.
+    # After the fix ships, switch this ref to @stable.
+    uses: holochain/actions/.github/workflows/nodejs-publish-release.yml@ci/19-npm-publish-randomly-ignores-the-release-label # zizmor: ignore[unpinned-uses]
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
