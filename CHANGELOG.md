@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## \[[0.0.5](https://github.com/holochain/npm-release-test/compare/v0.0.4...v0.0.5)\] - 2026-07-06
+
+### CI
+
+- Test new release automation by @cdunster
+
+### First-time Contributors
+
+- @cdunster made their first contribution
+
 ## \[[0.0.4](https://github.com/holochain/npm-release-test/compare/v0.0.3...v0.0.4)\] - 2026-07-01
 
 ### Features
