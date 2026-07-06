@@ -15,5 +15,7 @@ jobs:
     # Points at the fix branch so the harness can validate it before release.
     # After the fix ships, switch this ref to @stable.
     uses: holochain/actions/.github/workflows/nodejs-publish-release.yml@add-workspace-support
+    with:
+      workspace_main_package: packages/npm-release-test/package.json
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
