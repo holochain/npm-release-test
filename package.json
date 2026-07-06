@@ -15,8 +15,7 @@
   "scripts": {
     "build": "echo \"nothing to build\"",
     "test": "echo \"no tests\"",
-    "prepublishOnly": "npm run build",
-    "publish": "npm publish --access public"
+    "prepublishOnly": "npm run build"
   },
   "publishConfig": {
     "access": "public"
