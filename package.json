@@ -1,6 +1,6 @@
 {
   "name": "@holochain/npm-release-test",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Dummy package used to test the holochain/actions Node.js release workflows",
   "license": "Unlicense",
   "main": "src/index.js",
