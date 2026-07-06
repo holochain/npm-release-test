@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## \[[0.0.6](https://github.com/holochain/npm-release-test/compare/v0.0.5...v0.0.6)\] - 2026-07-06
+
+### CI
+
+- Fix the publish by removing the recursion by @cdunster
+
+### Documentation
+
+- Fix changelog by @cdunster
+
 ## \[[0.0.5](https://github.com/holochain/npm-release-test/compare/v0.0.4...v0.0.5)\] - 2026-07-06
 
 ### CI
