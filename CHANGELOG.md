@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## \[[0.0.8](https://github.com/holochain/npm-release-test/compare/v0.0.7...v0.0.8)\] - 2026-07-07
+
 ## \[[0.0.7](https://github.com/holochain/npm-release-test/compare/v0.0.6...v0.0.7)\] - 2026-07-07
 
 ### Miscellaneous Tasks
