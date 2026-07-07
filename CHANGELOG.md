@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## \[[0.0.7](https://github.com/holochain/npm-release-test/compare/v0.0.6...v0.0.7)\] - 2026-07-07
+
+### Miscellaneous Tasks
+
+- Make this a workspace with new npm-release-test-2 package by @cdunster
+  - This is to test the new workspace release flow.
+
 ## \[[0.0.6](https://github.com/holochain/npm-release-test/compare/v0.0.5...v0.0.6)\] - 2026-07-06
 
 ### CI
